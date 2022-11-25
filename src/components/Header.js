@@ -3,9 +3,10 @@ import Navigation from "./Navigation";
 
 function Header({ setCurrentPage }){
     return (
-        <header className="bg-success">
-             <h1>Stan Sitnitski</h1>
+        <header className="header">
+             
              <Navigation setCurrentPage={setCurrentPage}/> 
+             <h1>Stan Sitnitski</h1>
         </header>
     )
 }

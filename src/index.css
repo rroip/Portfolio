@@ -15,7 +15,7 @@ code {
     monospace;
 }
 .portfolio {
-  color:yellow
+  color: black
  }
 
  .contact {
@@ -23,5 +23,7 @@ code {
  }
 
  .header {
-  color: black
+  height: 500px;
+  background-color: rgb(251,97,7);
+  color: white
  }

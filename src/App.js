@@ -1,28 +1,28 @@
-import { useState } from "react";
-import Contact from "./pages/Contact";
+import React, { useState } from "react";
+import Contact from "./components/pages/Contact";
 import Header from "./components/Header";
-import About from "./pages/About";
+import About from "./components/pages/About";
 import Footer from "./components/Footer";
-import Portfolio from "./pages/Portfolio";
+import Portfolio from './components/pages/Portfolio';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('about');
   const renderCurrentPage = () => {
     switch (currentPage){
       case "about":
-        return <About/>;
+        return <About />;
       case "portfolio":
-        return <Portfolio/>; 
+        return <Portfolio />; 
       case "contact":
-        return <Contact/>;   
+        return <Contact />;   
       default:
-        return; 
+        return <About />;
   };
 }
 
   return (
     <>
-    <Header setCurrentPage={setCurrentPage}/>
+    <Header setCurrentPage={setCurrentPage} />
     {renderCurrentPage()}
     <Footer />
     </>
