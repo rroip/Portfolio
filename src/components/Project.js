@@ -1,21 +1,19 @@
 import React from "react"
 
-function Project({ project }) {
+function Project({ data }) {
 
-  const { name, description, link, repo, image } = project;
+  // const { name, description, link, repo, image } = project;
 
   return (
-    <div key={name}>
-      <img
-        src={require(`../assets/images/${image}`)}
-        alt={(name)}
-        className=""
-      />
-      <div>
-        <a href={link} target="_blank" rel="noreferrer">{name}</a>
-        <a href={repo} target="_blank" rel="noreferrer">Repo</a>
-        <p>{description}</p>
-      </div>
+    <div className="row">
+
+       <div className="row"><img src={data.image} /></div> 
+       <div className="row"> <h2>{data.name}</h2></div>
+     
+      
+      <p>{data.description}</p>
+      <a href={data.link} target="_blank">Learn More</a>
+
     </div>
   )
 }
