@@ -7,7 +7,7 @@ import Portfolio from "./pages/Portfolio/index";
 
 function App() {
   const [currentPage, setCurrentPage] = useState('about');
-  const renderCurrentPage = () => {
+  const renderCurrentPage = (currentPage) => {
     switch (currentPage) {
       case "about":
         return <About />;
@@ -25,7 +25,7 @@ function App() {
       <Header
         setCurrentPage={setCurrentPage}
       />
-      {renderCurrentPage()}
+      {renderCurrentPage(currentPage)}
       <Footer />
     </>
 

@@ -1,60 +1,74 @@
 
 import Project from '../../components/Project';
-import FitCalScreen from "./assets/FitCal_screenshot.jpg";
+import FitCalScreen from "./assets/FitCal_screenshot.png";
+import PwScreen from "./assets/PW_Screen_Shot.png";
+import Team from "./assets/My_Team_screenshot.png";
+import NoteTaker from "./assets/Note_Taker schreenshot.png";
+import WeatherApp from "./assets/weather app screenshot.png";
+import WorkDaySchedule from "./assets/Screen Shot.png";
+import "../../App.css";
+import { Container, Row, Col, Card } from 'react-bootstrap';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 
 function Portfolio() {
     const data = [
         {
-            name: 'surf-report',
-            description: 'MERN Stack',
+            name: 'FitCal',
+            description: 'MERN Description',
             link: "https://google.com",
             repo: "https://github.com",
             image: FitCalScreen
         },
         {
-            name: 'pastel-puzzels',
-            description: 'MERN Stack',
+            name: 'Password Generator',
+            description: 'Description',
             link: "https://github.com",
             repo: "https://github.com",
-            image: ""
+            image: PwScreen
         },
         {
-            name: 'run-buddy',
-            description: 'HTML/CSS',
+            name: 'Team Generator',
+            description: 'Description',
             link: "https://github.com",
             repo: "https://github.com",
-            image: ""
+            image: Team
         },
         {
-            name: 'led-wall',
-            description: 'Node/IoT',
+            name: 'Note Taker',
+            description: 'Description',
             link: "https://github.com",
             repo: "https://github.com",
-            image: ""
+            image: NoteTaker
         },
         {
-            name: 'calculator',
-            description: 'React/JavaScript/CSS',
+            name: 'Weather App/API',
+            description: 'Description',
             link: "https://github.com",
             repo: "https://github.com",
-            image: ""
+            image: WeatherApp
+        },
+        {
+            name: 'Work Day Schedule',
+            description: 'Description',
+            link: "https://github.com",
+            repo: "https://github.com",
+            image: WorkDaySchedule
         }
     ];
 
     return (
-        <section className="portfolio">
+        <section className='portfolio'>
             <h2>Portfolio</h2>
-
-            {data.map(project => {
-                return (
-                <Project 
-                data={ project }
-                />
-              );
-            })}
-
-
+            <Container className=''>
+                <Row className='p-1'>
+                    {data.map((project, i) => (
+                        <Col xs={6} md={6} className='project-col'>
+                            <Project data={project} key={"project" + i} />
+                        </Col>
+                    ))}
+                </Row>
+            </Container>
         </section>
     )
 }
