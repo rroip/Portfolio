@@ -8,7 +8,7 @@ function Header({ setCurrentPage }) {
             <Navigation
                 setCurrentPage={setCurrentPage}
             />
-            <h1>Stan Sitnitski</h1>
+            
         </header>
     )
 }

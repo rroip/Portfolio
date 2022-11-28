@@ -11,8 +11,8 @@ function Project({ data }) {
 
   return (
 
-    <Container>
-      <Row>
+    <Container className="">
+      <Row className="border p-2">
         <img src={data.image}/>
         <h2>{data.name}</h2>
         <p>{data.description}</p>
