@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.1157a317.css",
+    "main.js": "/portfolio/static/js/main.89ca53d4.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/weather app screenshot.png": "/portfolio/static/media/weather app screenshot.99f41e355ce7c226e316.png",
+    "static/media/FitCal_screenshot.png": "/portfolio/static/media/FitCal_screenshot.45da1698c98f8a77ff57.png",
+    "static/media/My_Team_screenshot.png": "/portfolio/static/media/My_Team_screenshot.3bb402315578586dff14.png",
+    "static/media/PW_Screen_Shot.png": "/portfolio/static/media/PW_Screen_Shot.eb6f260f44685e8ad170.png",
+    "static/media/Screen Shot.png": "/portfolio/static/media/Screen Shot.e5904e2fc0615576256d.png",
+    "static/media/Note_Taker schreenshot.png": "/portfolio/static/media/Note_Taker schreenshot.4495f264c47a212d330c.png",
+    "static/media/Stan_Profile_Photo.png": "/portfolio/static/media/Stan_Profile_Photo.0f040d33dd4bb3cbc95c.png",
+    "static/media/Resume.pdf": "/portfolio/static/media/Resume.769dd29e8b5eb4a26ce6.pdf",
+    "index.html": "/portfolio/index.html",
+    "main.1157a317.css.map": "/portfolio/static/css/main.1157a317.css.map",
+    "main.89ca53d4.js.map": "/portfolio/static/js/main.89ca53d4.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1157a317.css",
+    "static/js/main.89ca53d4.js"
+  ]
+}
