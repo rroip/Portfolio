@@ -130,10 +130,10 @@ function Resume() {
 
                 <div className='p-3 iconBox text-center'>
 
-                    <h5 className=''>Skills & Technologies</h5>
+                    <h5 className=''>Skill list</h5>
                     
 
-                    {/* Front-End Icons */}
+                    
                     <div className='border'>
                         <div className='text-center'><p className='text-muted pt-2'>Client-Side</p></div>
 
@@ -153,7 +153,7 @@ function Resume() {
                     </div>
 
 
-                    {/* Back-End Icons */}
+                    
                     <div className='border'>
                         <div className='text-center'><p className='text-muted pt-2'>Server-Side</p></div>
 
@@ -171,7 +171,7 @@ function Resume() {
                             </div>
                         </Row>
                     </div>
-                      {/* Other Icons */}
+                      
                       <div className='border'>
                         <div className='text-center'><p className='text-muted pt-2'>Other</p></div>
 
