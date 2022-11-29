@@ -18,7 +18,11 @@ function Navigation({ setCurrentPage }) {
                 event.preventDefault();
                 setCurrentPage("contact");
             }}>Contact</a>{" "}
-            <a href="">Resume</a>
+            
+            <a href="" onClick={(event) => {
+                event.preventDefault();
+                setCurrentPage("resume");
+            }}>Resume</a>{" "}
 
         </nav>
     )
